@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<link href="https://fonts.googleapis.com/css?family=Girassol" rel="stylesheet" type="text/css">
+
+<style>
+  body {
+    background-color: #E0E0E0;
+    font-family: Arial;
+  }
+
+  .main {
+    background-color: #E5FFCC;
+    width: 100%;
+    display: grid;
+    grid-cap: 10px;
+    grid-template-columns: 4fr 1fr;
+    grid-template-rows: 4fr 1fr;
+    grid-template-areas:
+      "title portrait"
+      "caption portrait"
+      "content portrait"
+  }
+
+  .title {
+    background-color: #C0C0C0;
+    font-family: Girassol, Arial;
+    grid-area: title;
+  }
+
+  .caption {
+    background-color: #C0C0C0;
+    grid-area: caption;
+  }
+
+  .content {
+    background-color: #C0C0C0;
+    grid-area: content;
+  }
+
+  .portrait {
+    background-color: #C0C0C0;
+    grid-area: portrait;
+  }
+    
+</style>
+
+<main class="main">
+  
+  <h1 id="title" class="title">Otto von Bismarck</h1>
+  
+  <div id="caption" class="caption">Chanceller of the German Empire</div>
+  
+  <p id="content" class="content">Content</p>
+  
+  <div id="portrait" class="portrait">Portrait</div>
+  
+</main>
