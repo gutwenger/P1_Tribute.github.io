@@ -1,52 +1,132 @@
 <!DOCTYPE html>
 
 <link href="https://fonts.googleapis.com/css?family=Squada+One&display=swap" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Amaranth&display=swap" rel="stylesheet" type="text/css">
+
 
 
 <html>
-  
+
   <style>
-  
-    main {
+
+    body {
+      width: auto;
+      height: auto;
       font-family: Arial;
-      font-size: 12px;
+      font-size: 15px;
+      background: #FDFDFD;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: fixed;
     }
-    
+
     #header {
       text-align: center;
+      font-family: Satisfy;
+      font-size: 1em;
+      margin: auto;
+    }
+
+    #title {
+      text-align: center;
+      font-family: Amaranth, Arial;
+      font-weight: bold;
+      font-size: 3em;
+      margin: auto;
+    }
+
+    #img-div {
+      margin: auto;
+      padding: 2%;
+      background-color: #FFFFFF;
+      position: cover;
+    }
+
+    #img {
+       width: 100%;
+       height: 100%;
+    }
+
+    #img-caption {
+      text-align: center;
+      font-family: Satisfy, Arial;
       font-size: 1em;
     }
-    
-    
-    
+
+    #tribute-info {
+      padding: 5%;
+      padding-bottom: 2%;
+      font-family: Amaranth, Arial;
+      text-align: justify;
+    }
+
+    #timeline {
+      padding: 0 10%;
+      font-family: Amaranth, Arial;
+      text-align: justify;
+    }
+
+    #tribute-link {
+      text-align: center;
+      font-family: Amaranth, Arial;
+      font-weight: bold;
+      font-size: 1.25em;
+      padding: 0;
+      padding-top: 2.5%;
+      padding-bottom: 2.5%;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    li {
+      margin: 20px 0;
+    }
+
+    .article {
+      padding: 5%;
+      border-radius: 20px;
+      background: #E0E0E0;
+    }
+
+    .content {
+     text-align: center;
+     font-size: 1.25em;
+     font-weight: bold;
+     }
+
   </style>
-  
+
   <main id="layout">
-    
+
     <div id="header">
       <p>This is my first project.</p>
     </div>
-    
+
     <div id="title" class="title">
-      <h1 class="title1">Imperial Examination</h1>
+      <h1>Imperial Examination</h1>
     </div>
-    
+
     <div id="img-div" class="img-div">
       <img id="img" src="https://brewminate.com/wp-content/uploads/2018/07/073018-14-Ancient-China-Chinese-History.jpg" alt="Imperial China">
-      <p id="img-caption">This is Imperial China.</p>
+      <p id="img-caption">The Great Wall of Imperial China.</p>
     </div>
-    
+
     <div id="tribute-info" class="tribute-info">
-      <h2>Chinese imperial examinations were a civil service examination system in Imperial China for selecting candidates for the state bureaucracy.</h2>
-      <p>The system reached its apogee during the Song dynasty and lasted until the final years of the Qing dynasty in 1905. The exams served to ensure a common knowledge of writing, the classics, and literary style among state officials.</p>
-      <p>Here is the timelime of the rise and fall of the Imperial Examination:</p>
+      <article class="article">
+        <h2>Chinese imperial examinations were a civil service examination system in Imperial China for selecting candidates for the state bureaucracy.</h2>
+        <p>The system reached its apogee during the Song dynasty and lasted until the final years of the Qing dynasty in 1905. The exams served to ensure a common knowledge of writing, the classics, and literary style among state officials.</p>
+      </article>
+        <p class="content">Here is the timelime of the development of Imperial Examination:</p>
     </div>
-    
+
     <div id="timeline" class="timeline">
       <ul>
-        <li><strong>AD 607</strong> - Emperor Yang of Sui established a new category of examinations for the "presented scholar" (jinshike 進士科).</li>
+        <li><strong>AD 607</strong> - Emperor Yang of Sui established a new category of examinations for the "presented scholar".</li>
         <li><strong>AD 618 - 917</strong> - Under the Tang, six categories of regular civil-service examinations were organized by the Department of State Affairs and held by the Ministry of Rites: cultivated talents, classicists, presented scholars, legal experts, writing experts, and arithmetic experts.</li>
-        <li><strong>AD 960 - 1279</strong> - In the Song dynasty (960–1279) the imperial examinations became the primary method of recruitment for official posts.</li>
+        <li><strong>AD 960 - 1279</strong> - In the Song dynasty (960 - 1279) the imperial examinations became the primary method of recruitment for official posts.</li>
         <li><strong>AD 937</strong> - By the decision of the Emperor Taizu of Song, the palace examination was supervised by the emperor himself.</li>
         <li><strong>AD 1037</strong> - From 1037 on, it was forbidden for examiners to supervise examinations in their home prefecture. Examiners and high officials were also forbidden from contacting each other prior to the exams.</li>
         <li><strong>AD 1105</strong> - The practice of recopying papers in order to prevent revealing the candidate's calligraphy was introduced at the capital and departmental level in 1105, and in the prefectures in 1037.</li>
@@ -58,13 +138,14 @@
         <li><strong>AD 1723</strong> - Han Chinese graduates of the palace examination were required to learn the Manchu language.</li>
         <li><strong>AD 1864</strong> - Li Hongzhang submitted proposals to add a new subject into the Imperial examinations involving Western technology, that scholars may focus their efforts entirely on this.</li>
         <li><strong>AD 1888</strong> - the Imperial examinations was expanded to include the subject of international commerce.</li>
-        <li><strong>AD 1905</strong> - the throne ordered the examination system be discontinued, beginning at the first level in 1905. The new system provided equivalents to the old degrees; a bachelor's degree, for instance, would be considered equivalent to the Xiucai(秀才).</li>
+        <li><strong>AD 1905</strong> - the throne ordered the examination system be discontinued, beginning at the first level in 1905. The new system provided equivalents to the old degrees; a bachelor's degree, for instance, would be considered equivalent to the Xiucai.</li>
+      </ul>
     </div>
-    
+
     <div id="tribute-link">
-      <p>If you want to know more about Imperial Examination, visit <a target="_blank" href="https://en.wikipedia.org/wiki/Imperial_examination">HERE<a>.</p>
+      <p>If you want to know more about Imperial Examination, click <a target="_blank" href="https://en.wikipedia.org/wiki/Imperial_examination">HERE<a>.</p>
     </div>
-        
+
   </main>
-      
+
 </html>
